@@ -8,7 +8,7 @@
 import Foundation
 
 open class TophLib2 {
-    init() {
+    public init() {
         print("Created an instance of TophLib2")
     }
     
