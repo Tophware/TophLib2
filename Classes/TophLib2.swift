@@ -10,6 +10,7 @@ import Foundation
 open class TophLib2 {
     public init() {
         print("Created an instance of TophLib2")
+        print("It did not register the previous version update")
     }
     
     // comment
@@ -23,5 +24,9 @@ open class TophLib2 {
     
     open func sayHello(person:Person) -> String {
         return "Hello, \(person.firstName)!"
+    }
+    
+    open func doSomething() -> Void {
+        print("I am doing something")
     }
 }
