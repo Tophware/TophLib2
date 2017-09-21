@@ -173,6 +173,15 @@
 			path = "Target Support Files/Pods-TophLib2_Example";
 			sourceTree = "<group>";
 		};
+		B4A8FF8A1F7354C1004DD1F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8FF861F73518D004DD1F1 /* TophLib2.swift */,
+				B4A8FF881F7351BC004DD1F1 /* Person.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,9 +201,8 @@
 		EB8FD4FBB2E0F1C0EBBDD65193FF59FF /* TophLib2 */ = {
 			isa = PBXGroup;
 			children = (
+				B4A8FF8A1F7354C1004DD1F1 /* Classes */,
 				9C54A4BA1E34539087C3DD4407D14FC6 /* Support Files */,
-				B4A8FF861F73518D004DD1F1 /* TophLib2.swift */,
-				B4A8FF881F7351BC004DD1F1 /* Person.swift */,
 			);
 			name = TophLib2;
 			path = ../..;
