@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* TophLib2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TophLib2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7DA1B417011E9B343BBEEB70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		804C3C14DC250DB04A840118 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7DA1B417011E9B343BBEEB70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		804C3C14DC250DB04A840118 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		94A08B10EAEC071CA2213BA8 /* Pods_TophLib2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TophLib2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D336C2DCC505912A0E9FFCD3 /* TophLib2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TophLib2.podspec; path = ../TophLib2.podspec; sourceTree = "<group>"; };
+		D336C2DCC505912A0E9FFCD3 /* TophLib2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TophLib2.podspec; path = ../TophLib2.podspec; sourceTree = "<group>"; };
 		DE5E02CD269E574CDF3B3B5C /* Pods-TophLib2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TophLib2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TophLib2_Example/Pods-TophLib2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBC41816885DF8F3E3324E9A /* Pods_TophLib2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TophLib2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 75B82FQE5B;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -505,6 +506,7 @@
 			baseConfigurationReference = 151EDFF64E86CF46576DA3CC /* Pods-TophLib2_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75B82FQE5B;
 				INFOPLIST_FILE = TophLib2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +521,7 @@
 			baseConfigurationReference = DE5E02CD269E574CDF3B3B5C /* Pods-TophLib2_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75B82FQE5B;
 				INFOPLIST_FILE = TophLib2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
