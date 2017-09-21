@@ -1,0 +1,22 @@
+{
+  "name": "TophLib2",
+  "version": "0.1.0",
+  "summary": "A short description of TophLib2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tophware/TophLib2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tophware": "chris@tophware.com"
+  },
+  "source": {
+    "git": "https://github.com/Tophware/TophLib2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TophLib2/Classes/**/*"
+}
