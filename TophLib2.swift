@@ -12,6 +12,7 @@ open class TophLib2 {
         print("Created an instance of TophLib2")
     }
     
+    // comment
     open func createPerson(firstName:String, lastName:String) -> Person {
         return Person(firstName: firstName, lastName: lastName)
     }
